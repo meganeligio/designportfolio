@@ -28,13 +28,16 @@
 */
 
 /* GLOBAL RESET */
+
 * {
     box-sizing: border-box;
 }
 
+
 /* GLOBAL BODY SETTINGS */
+
 body {
-    font-family: "Rubik", Helvetica, Arial, sans-serif;
+    font-family: 'Lexend', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 87.5%;
     /* 14px */
@@ -44,7 +47,9 @@ body {
     min-height: 100vh;
 }
 
+
 /* TYPOGRAPHY */
+
 h1,
 h2,
 h3 {
@@ -66,6 +71,7 @@ a:hover {
 
 
 /* TYPE SPECIMEN */
+
 .headline {
     font-size: 4em;
     font-weight: 400;
@@ -83,6 +89,7 @@ a:hover {
 
 
 /* MEDIA */
+
 img {
     max-width: 100%;
     height: auto;
@@ -94,7 +101,9 @@ img.circular {
     margin-bottom: 3em;
 }
 
+
 /* BUTTONS */
+
 .button {
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -109,13 +118,17 @@ img.circular {
     border-color: rgba(0, 0, 0, 1);
 }
 
+
 /* LAYOUT */
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
+
 /* BESPOKE LAYOUT HELPERS */
+
 @media (min-width: 768px) {
 
     .two-col .container {
@@ -148,6 +161,7 @@ img.circular {
     }
 
 }
+
 
 /* STRUCTURE */
 
@@ -184,7 +198,9 @@ img.circular {
     color: rgba(0, 0, 0, 1);
 }
 
+
 /* SITE NAV */
+
 .site-navigation ul {
     padding: 0;
     margin: 1em 1.5em 0 0;
@@ -214,7 +230,9 @@ img.circular {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
+
 /* MAIN CONTENT */
+
 main {
     padding: 5em 0;
 }
@@ -228,8 +246,8 @@ section {
 }
 
 
-
 /* FEATURED PROJECTS ON HOME PAGE */
+
 @media (min-width: 768px) {
 
     .featuredproject {
@@ -254,7 +272,6 @@ section {
     }
 
 }
-
 
 
 /* SUB PAGE: PROJECT DETAIL PAGES */
@@ -320,7 +337,9 @@ section {
 
 }
 
+
 /* @KEYFRAME ANIMATIONS */
+
 @keyframes fade-in-and-down {
     from {
         opacity: 0;
@@ -376,6 +395,7 @@ section {
 
 
 /* SCROLL-TRIGGERED ANIMATIONS ("REVEALER")*/
+
 .revealer * {
     transition: transform .4s cubic-bezier(0, .5, .5, 1);
     transition: opacity .4s linear;
@@ -423,3 +443,18 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* CUSTOM FONT */
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('LEMONMILK-Medium.eot');
+    src: url('LEMONMILK-Medium.eot?#iefix') format('embedded-opentype'),
+        url('LEMONMILK-Medium.woff2') format('woff2'),
+        url('LEMONMILK-Medium.woff') format('woff'),
+        url('LEMONMILK-Medium.ttf') format('truetype'),
+        url('LEMONMILK-Medium.svg#LEMONMILK-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
