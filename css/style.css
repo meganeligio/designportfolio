@@ -239,6 +239,7 @@ img.circular {
 
 main {
     padding: 5em 0;
+    /* background: blue; */
 }
 
 section {
@@ -299,6 +300,10 @@ section {
 .page-projectdetail .darker {
     background: rgb(0 0 0 / .05);
 }
+
+/* .projectinfo {
+    background-color: #fff;
+} */
 
 .projectinfo p {
     text-align: left;
