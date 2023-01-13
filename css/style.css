@@ -239,7 +239,6 @@ img.circular {
 
 main {
     padding: 5em 0;
-    /* background: blue; */
 }
 
 section {
@@ -300,10 +299,6 @@ section {
 .page-projectdetail .darker {
     background: rgb(0 0 0 / .05);
 }
-
-/* .projectinfo {
-    background-color: #fff;
-} */
 
 .projectinfo p {
     text-align: left;
@@ -454,6 +449,7 @@ section {
 }
 
 /* CUSTOM FONT */
+
 @font-face {
     font-family: 'LEMON MILK';
     src: url('../fonts/LEMONMILK-Medium.eot');
@@ -467,3 +463,12 @@ section {
     font-display: swap;
 }
 
+/* CUSTOM STYLING */
+
+hq {
+    text-transform: uppercase;
+}
+
+i {
+    text-transform: uppercase;
+}
