@@ -126,7 +126,7 @@ img.circular {
 /* LAYOUT */
 
 .container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
 }
 
@@ -297,7 +297,7 @@ section {
 }
 
 .page-projectdetail .darker {
-    background: #ff7b00;
+    background: rgb(0 0 0 / .05);
 }
 
 .projectinfo p {
@@ -448,6 +448,7 @@ section {
     transform: translateY(0);
 }
 
+
 /* CUSTOM FONT */
 
 @font-face {
@@ -463,12 +464,46 @@ section {
     font-display: swap;
 }
 
+
 /* CUSTOM STYLING */
 
 hq {
     text-transform: uppercase;
 }
 
+o {
+    color:#ff7b00;
+}
+
+.page-projectdetail .hhq {
+    background-color: #ff7b00;
+}
+
+.page-projectdetail .orange {
+    background-color: #ff7b00;
+}
+
 .haikyuu-bg {
     background-color: #1f222b;
+}
+
+.hero-hq {
+    width: 30%;
+}
+
+.iso {
+    width: 80%;
+    place-items: center;
+}
+
+.subheadline-og {
+    color: #ff7b00;
+}
+
+.headline-white {
+    color: rgb(255 255 255);
+}
+
+.projectinfo .p-hq {
+    color: rgb(255 255 255);
 }
