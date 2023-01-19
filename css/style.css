@@ -131,6 +131,11 @@ img.circular {
 }
 
 
+.right-content {
+    margin-left: 3em;
+    /* border: 3px solid red; */
+}
+
 /* BESPOKE LAYOUT HELPERS */
 
 @media (min-width: 768px) {
@@ -302,8 +307,8 @@ section {
 
 .projectinfo p {
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     max-width: 45em;
 }
 
@@ -471,8 +476,8 @@ hq {
     text-transform: uppercase;
 }
 
-o {
-    color:#ff7b00;
+.orange-text {
+    color: #ff7b00;
 }
 
 .page-projectdetail .hhq {
@@ -483,6 +488,7 @@ o {
     background-color: #ff7b00;
 }
 
+
 .haikyuu-bg {
     background-color: #1f222b;
 }
@@ -491,9 +497,45 @@ o {
     width: 30%;
 }
 
-.iso {
-    width: 80%;
+.splash-screen {
+    padding: 8em 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
     place-items: center;
+}
+
+.splash-screen .p-hq {
+    color: beige;
+}
+
+h3.subtext {
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.isometric {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 3em;
+    /* border: 5px solid red; */
+}
+
+@media (min-width: 768px) {
+    .isometric {
+        padding: 5em;
+    }
 }
 
 .subheadline-og {
@@ -506,4 +548,5 @@ o {
 
 .projectinfo .p-hq {
     color: rgb(255 255 255);
+    text-align: justify;
 }
