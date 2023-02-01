@@ -43,7 +43,7 @@ body {
     /* 14px */
     color: rgb(0 0 0 / 0.7);
     margin: 0 auto;
-    background-color: #ddd;
+    background-color: #4d4d4f;
     min-height: 100vh;
 }
 
@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-    color: rgb(0 0 0 / 1);
+    color: #f6a2af;
 }
 
 
@@ -77,18 +77,22 @@ a:hover {
     font-family: 'LEMON MILK', Arial, Helvetica, sans-serif;
     font-size: 4em;
     font-weight: 400;
-    color: rgb(138 208 194);
+    color: #f6a2af;
     line-height: 1;
     margin: 0 0 .4em 0;
 }
 
 .subheadline {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     text-transform: lowercase;
-    color: rgb(0 0 0 / .6);
+    color: #8ad0c2;
     line-height: 1;
     margin: 0 0 .6em 0;
+}
+
+.site-identity h1 {
+    font-family: 'LEMON MILK', Arial, Helvetica, sans-serif;
 }
 
 
@@ -110,16 +114,17 @@ img.circular {
 
 .button {
     display: inline-block;
-    border: 1px solid rgb(0 0 0 / 0.5);
+    border: 1px solid #f6a2af;
     border-radius: 3em;
     padding: 1em 2em;
     margin: .5em 0;
+    color: #f6a2af;
+    text-transform: lowercase;
 }
 
 .button:hover {
-    background: rgb(0 0 0 / 1);
+    background: #f6a2af;
     color: #fff;
-    border-color: rgb(0 0 0 / 1);
 }
 
 
@@ -195,7 +200,7 @@ img.circular {
 }
 
 .site-header h1 a {
-    color: rgb(0 0 0 / 0.5);
+    color: #f6a2af;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     padding: 1em;
@@ -204,7 +209,7 @@ img.circular {
 }
 
 .site-header h1 a:hover {
-    color: rgb(0 0 0 / 1);
+    color: #8ad0c2;
 }
 
 
@@ -223,7 +228,7 @@ img.circular {
     display: block;
     padding: 1em 0.5em;
     margin: 0 .2em;
-    color: rgb(0 0 0 / 0.5);
+    color: #f6a2af;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     border-bottom: 2px solid rgb(0 0 0 / 0);
@@ -231,12 +236,12 @@ img.circular {
 }
 
 .site-navigation ul li a:hover {
-    border-bottom: 2px solid rgb(0 0 0 / 0.2);
-    color: rgba(0, 0, 0, 1);
+    border-bottom: 2px solid #8ad0c2;
+    color: #8ad0c2;
 }
 
 .site-navigation ul li a.selected {
-    border-bottom: 2px solid rgb(0 0 0 / 0.5);
+    border-bottom: 2px solid #f6a2af;
 }
 
 
@@ -344,6 +349,32 @@ section {
         columns: 2;
     }
 
+}
+
+
+/* VIDEO */
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.video-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -549,4 +580,13 @@ h3 {
 .projectinfo .p-hq {
     color: rgb(255 255 255);
     text-align: justify;
+}
+
+/* BOOK TRILOGY STYLING */
+
+.page-projectdetail-bt {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4d4f;
 }
