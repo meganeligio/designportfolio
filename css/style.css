@@ -54,6 +54,7 @@ h1,
 h2,
 h3 {
     font-weight: normal;
+    text-transform: uppercase;
 }
 
 p {
@@ -85,7 +86,7 @@ a:hover {
 .subheadline {
     font-size: 1.5em;
     font-weight: 400;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: #8ad0c2;
     line-height: 1;
     margin: 0 0 .6em 0;
@@ -364,7 +365,7 @@ section {
 .container-hero {
     /* max-width: 1000px; */
     margin: 0 auto;
-    padding: 5em;
+    padding: 4em 4em;
 }
 
 video {
@@ -390,7 +391,6 @@ video {
   width: 100%;
   height: 100%;
 }
-
 
 
 /* @KEYFRAME ANIMATIONS */
@@ -520,7 +520,7 @@ video {
 }
 
 
-/* HAIKYUU!! */
+/* HAIKYUU!! STYLING */
 
 hq {
     text-transform: uppercase;
@@ -528,6 +528,10 @@ hq {
 
 .orange-text {
     color: #ff7b00;
+}
+
+.hq-black {
+    color: #1f222b;
 }
 
 .page-projectdetail .hhq {
@@ -601,11 +605,118 @@ h3 {
     text-align: justify;
 }
 
+.button-hq {
+    display: inline-block;
+    border: 1px solid #ff7b00;
+    border-radius: 3em;
+    padding: 1em 2em;
+    margin: .5em 0;
+    color: #ff7b00;
+    text-transform: lowercase;
+}
+
+.button-hq:hover {
+    background: #ff7b00;
+    color: #fff;
+}
+
+.hq-nav ul li a {
+    color: #fff;
+}
+
+.site-navigation ul li a:hover {
+    border-bottom: 2px solid #1f222b;
+    color: #1f222b;
+}
+
+.hq-nav ul li a.selected {
+    border-bottom: 2px solid #fff;
+}
+
+.hq-header h1 a {
+    color:#fff;
+}
+
+.hq-header h1 a:hover {
+    color: #1f222b;
+}
+
+.hq-footer ul li a {
+    color: #fff;
+}
+
+.hq-footer ul li a:hover {
+    color: #ff7b00;
+}
+
+
+/* IDLE CAFE STYLING */
+
+
 /* BOOK TRILOGY STYLING */
 
-.page-projectdetail-bt {
-    max-width: none;
-    margin: 0;
-    padding: 0;
+.projectinfo .book-desc {
+    text-align: justify;
+}
+
+.book-bg {
+    background-color: #6863a5;
+}
+
+.book-pink {
+    color: #f6a2af;
+}
+
+.book-white {
+    color: #fff;
+}
+
+.page-projectdetail-bt .darker {
+    background: rgb(0 0 0 / .05);
+}
+
+
+/* TOURISM LOGO STYLING */
+
+.projectinfo .logo-desc {
+    text-align: justify;
+}
+
+.logo-bg {
+    background-color: #cea06e;
+}
+
+.page-projectdetail .logo-hero {
     background-color: #4d4d4f;
+}
+
+.logo-orange {
+    background-color: #cea06e;
+}
+
+.logo-white {
+    color:#fff;
+}
+
+.logo-black {
+    color: #4d4d4f;
+}
+
+.button-logo {
+    display: inline-block;
+    border: 1px solid #4d4d4f;
+    border-radius: 3em;
+    padding: 1em 2em;
+    margin: .5em 0;
+    color: #4d4d4f;
+    text-transform: lowercase;
+}
+
+.button-logo:hover {
+    background: #4d4d4f;
+    color: #fff;
+}
+
+.logo-footer ul li a {
+    color: #4d4d4f;
 }
