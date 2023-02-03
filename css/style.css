@@ -542,7 +542,6 @@ hq {
     background-color: #ff7b00;
 }
 
-
 .haikyuu-bg {
     background-color: #1f222b;
 }
@@ -610,7 +609,7 @@ h3 {
     border: 1px solid #ff7b00;
     border-radius: 3em;
     padding: 1em 2em;
-    margin: .5em 0;
+    margin: .5em .5em .5em 0em;
     color: #ff7b00;
     text-transform: lowercase;
 }
@@ -624,9 +623,9 @@ h3 {
     color: #fff;
 }
 
-.site-navigation ul li a:hover {
-    border-bottom: 2px solid #1f222b;
+.hq-nav ul li a:hover {
     color: #1f222b;
+    border-bottom: 2px solid #1f222b;
 }
 
 .hq-nav ul li a.selected {
@@ -647,10 +646,125 @@ h3 {
 
 .hq-footer ul li a:hover {
     color: #ff7b00;
+    border-bottom: 2px solid #ff7b00;
 }
 
 
 /* IDLE CAFE STYLING */
+
+.cafe-bg {
+    background-color: #EF86CE;
+}
+
+.page-projectdetail .cafe-hero {
+    background-color: #24272A;
+}
+
+.page-projectdetail .cafe-black {
+    background-color: #24272A;
+}
+
+.projectinfo .cafe-headline {
+    color: #EAF5DE;
+}
+
+.projectinfo .cafe-subheadline {
+    color: #CDDE00;
+    text-shadow: 0px 0px 10px #CDDE00;
+}
+
+.projectinfo .cafe-desc {
+    color: #EAF5DE;
+    text-align: justify;
+}
+
+.cafe {
+    color: #CDDE00;
+  }
+
+.merch-text {
+    color: #CDDE00;
+    text-shadow: 0px 0px 10px #CDDE00;
+}
+
+.hat-text {
+    color: #EAF5DE;
+}
+
+.options {
+    color: #FF9015;
+    font-style: italic;
+    padding-top: 1.5em;
+}
+
+.options:hover {
+    text-shadow: 0px 0px 10px #FF9015;
+}
+
+.ver {
+    color: #EAF5DE;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.ver1-img {
+    margin-bottom: 2em;
+}
+
+.cafe-meta {
+    color: #EAF5DE;
+}
+
+.button-cafe {
+    display: inline-block;
+    background: #24272A;
+    border: 1px solid #24272A;
+    border-radius: 3em;
+    padding: 1em 2em;
+    margin: .5em .5em .5em 0em;
+    color: #CDDE00;
+    text-transform: lowercase;
+}
+
+.button-cafe:hover {
+    border: 1px solid #65B2E8;
+    background: #65B2E8;
+    color: #EAF5DE;
+    box-shadow: 0px 0px 10px #65B2E8;
+}
+
+.cafe-footer ul li a {
+    color: #EAF5DE;
+}
+
+.cafe-footer ul li a:hover {
+    color: #CDDE00;
+    text-shadow: 0px 0px 10px #CDDE00;
+    border-bottom: 2px solid #CDDE00;
+}
+
+.cafe-header h1 a {
+    color: #CDDE00;
+}
+
+.cafe-header h1 a:hover {
+    color: #65B2E8;
+    text-shadow: 0px 0px 10px #65B2E8;
+}
+
+.cafe-nav ul li a {
+    color: #CDDE00;
+}
+
+.cafe-nav ul li a:hover {
+    color: #65B2E8;
+    border-bottom: 2px solid #65B2E8;
+    text-shadow: 0px 0px 10px #65B2E8;
+}
+
+.cafe-nav ul li a.selected {
+    border-bottom: 2px solid #CDDE00;
+}
 
 
 /* BOOK TRILOGY STYLING */
@@ -673,6 +787,24 @@ h3 {
 
 .page-projectdetail-bt .darker {
     background: rgb(0 0 0 / .05);
+}
+
+.book-footer ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.book-header h1 a:hover {
+    color: #fff;
+}
+
+.book-nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.book-nav ul li a.selected {
+    border-bottom: 2px solid #f6a2af;
 }
 
 
@@ -717,6 +849,32 @@ h3 {
     color: #fff;
 }
 
+.logo-header h1 a {
+    color:#cea06e;
+}
+
+.logo-header h1 a:hover {
+    color: #fff;
+}
+
 .logo-footer ul li a {
     color: #4d4d4f;
+}
+
+.logo-footer ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.logo-nav ul li a {
+    color: #cea06e;
+}
+
+.logo-nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.logo-nav ul li a.selected {
+    border-bottom: 2px solid #cea06e;
 }
